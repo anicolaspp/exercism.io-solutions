@@ -1,3 +1,4 @@
+import scala.collection.mutable
 import scala.util.Random
 
 class Robot() {
@@ -18,15 +19,19 @@ object NameGenerator {
   private def genNames() = for {
     a <- 'A' to 'Z'
     b <- 'A' to 'Z'
-    c <- 100 to 999
-  } yield a.toString + b + c
-  
+    c <- '0' to '9'
+    d <- '0' to '9'
+    e <- '0' to '9'
+  } yield a.toString + b + c + d + e
+
   private val pool =
-  genNames()
-    .foldLeft(collection.mutable.HashSet.empty[String])((set, name) => {
+    genNames()
+      .par
+      .foldLeft(collection.mutable.HashSet.empty[String])((set, name) => {
         set.add(name)
         set
       })
+
 
   def putNameBack(name: String): Unit = pool.add(name)
 
