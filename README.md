@@ -18,4 +18,5 @@ My solutions to some of the [exercism](http://exercism.io/) Scala problems
 - [Word Count](https://github.com/anicolaspp/exercism.io-solutions/tree/master/scala/word-count)
 - [Flatten Array](https://github.com/anicolaspp/exercism.io-solutions/tree/master/scala/flatten-array)
 - [Sieves](https://github.com/anicolaspp/exercism.io-solutions/tree/master/scala/sieve)
+- [Robot Name](https://github.com/anicolaspp/exercism.io-solutions/tree/master/scala/robot-name)
 
