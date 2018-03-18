@@ -15,4 +15,5 @@
 - [Sum of Multiples](https://github.com/anicolaspp/exercism.io-solutions/tree/master/scala/sum-of-multiples)
 - [Word Count](https://github.com/anicolaspp/exercism.io-solutions/tree/master/scala/word-count)
 - [Flatten Array](https://github.com/anicolaspp/exercism.io-solutions/tree/master/scala/flatten-array)
+- [Sieves](https://github.com/anicolaspp/exercism.io-solutions/tree/master/scala/sieve)
 
