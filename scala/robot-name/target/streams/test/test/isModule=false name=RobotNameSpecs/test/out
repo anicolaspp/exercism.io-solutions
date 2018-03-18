@@ -1,0 +1,9 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mRobotNameSpecs:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- has a name[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- does not change its name[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- does not have the same name as other robots *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  "FB817" was equal to "FB817" (RobotNameTest.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- can have its name reset *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  "FB817" equaled "FB817" (RobotNameTest.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- a large number of new instances have unique names *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  FB817 is repeated (RobotNameTest.scala:41)[0m[0m
