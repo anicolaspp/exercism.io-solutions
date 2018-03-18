@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/anicolaspp/exercism/scala/flatten-array/src/main/scala/FlattenArray.scala:17:33: type List takes type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m      } else if (h.isInstanceOf[List]) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
