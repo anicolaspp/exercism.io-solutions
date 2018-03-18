@@ -34,9 +34,5 @@ object NameGenerator {
   
   def putNameBack(name: String): Unit = pool += name
 
-  def newName(): String = {
-    val name = pool.dequeue()
-
-    name
-  }
+  def newName(): String = pool.dequeue()
 }
