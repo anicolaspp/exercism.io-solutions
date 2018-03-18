@@ -27,18 +27,15 @@ object NameGenerator {
   private val pool =
     genNames()
       .par
-      .foldLeft(collection.mutable.HashSet.empty[String])((set, name) => {
-        set.add(name)
-        set
+      .foldLeft(collection.mutable.Queue.empty[String])((queue, name) => {
+        queue.enqueue(name)
+        queue
       })
-
-
-  def putNameBack(name: String): Unit = pool.add(name)
+  
+  def putNameBack(name: String): Unit = pool += name
 
   def newName(): String = {
-    val name = pool.head
-
-    pool.remove(name)
+    val name = pool.dequeue()
 
     name
   }
