@@ -1,5 +1,7 @@
 # exercism.io-solutions
 
+My solutions to some of the [exercism](http://exercism.io/) Scala problems
+
 ## Problems
 
 - [Accumulate](https://github.com/anicolaspp/exercism.io-solutions/tree/master/scala/accumulate)
