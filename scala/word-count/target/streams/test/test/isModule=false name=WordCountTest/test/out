@@ -1,0 +1,17 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mWordCountTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- count one word[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- count one of each word[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- multiple occurrences of a word[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- handles cramped lists *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Map("one,two,three" -> 1) was not equal to Map("one" -> 1, "two" -> 1, "three" -> 1) (WordCountTest.scala:24)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- handles expanded lists[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- ignore punctuation *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Map("java:" -> 1, "car:" -> 1, "as" -> 1, "javascript!!&@$%^&" -> 1, "carpet" -> 1) was not equal to Map("as" -> 1, "car" -> 1, "java" -> 1, "carpet" -> 1, "javascript" -> 1) (WordCountTest.scala:36)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- include numbers *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Map("testing," -> 1, "testing" -> 1, "2" -> 1, "1," -> 1) was not equal to Map("testing" -> 2, "1" -> 1, "2" -> 1) (WordCountTest.scala:42)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- normalize case *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Map("GO" -> 1, "Go" -> 1, "stop" -> 1, "go" -> 1, "Stop" -> 1) was not equal to Map("go" -> 3, "stop" -> 2) (WordCountTest.scala:48)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- with apostrophes *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Map("don't" -> 2, "laugh." -> 1, "Then:" -> 1, "cry." -> 1, "First:" -> 1) was not equal to Map("laugh" -> 1, "don't" -> 2, "then" -> 1, "first" -> 1, "cry" -> 1) (WordCountTest.scala:54)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- with quotations *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Map("large." -> 1, "'large'" -> 1, "Joe" -> 1, "can't" -> 1, "between" -> 1, "tell" -> 1, "and" -> 1) was not equal to Map("can't" -> 1, "large" -> 2, "joe" -> 1, "between" -> 1, "tell" -> 1, "and" -> 1) (WordCountTest.scala:60)[0m[0m

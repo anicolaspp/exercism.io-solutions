@@ -1,0 +1,10 @@
+[0m[[0minfo[0m] [0m[32mIsogramTest:[0m[0m
+[0m[[0minfo[0m] [0m[32m- empty string[0m[0m
+[0m[[0minfo[0m] [0m[32m- isogram with only lower case characters[0m[0m
+[0m[[0minfo[0m] [0m[32m- word with one duplicated character[0m[0m
+[0m[[0minfo[0m] [0m[32m- longest reported english isogram[0m[0m
+[0m[[0minfo[0m] [0m[32m- word with duplicated character in mixed case[0m[0m
+[0m[[0minfo[0m] [0m[32m- hypothetical isogrammic word with hyphen[0m[0m
+[0m[[0minfo[0m] [0m[32m- isogram with duplicated non letter character[0m[0m
+[0m[[0minfo[0m] [0m[32m- made-up name that is an isogram[0m[0m
+[0m[[0minfo[0m] [0m[32m- duplicated character in the middle[0m[0m

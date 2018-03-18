@@ -1,0 +1,14 @@
+[0m[[0minfo[0m] [0m[32mPerfectNumbersTest:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Smallest perfect number is classified correctly[0m[0m
+[0m[[0minfo[0m] [0m[32m- Medium perfect number is classified correctly[0m[0m
+[0m[[0minfo[0m] [0m[32m- Large perfect number is classified correctly[0m[0m
+[0m[[0minfo[0m] [0m[32m- Smallest abundant number is classified correctly[0m[0m
+[0m[[0minfo[0m] [0m[32m- Medium abundant number is classified correctly[0m[0m
+[0m[[0minfo[0m] [0m[32m- Large abundant number is classified correctly[0m[0m
+[0m[[0minfo[0m] [0m[32m- Smallest prime deficient number is classified correctly[0m[0m
+[0m[[0minfo[0m] [0m[32m- Smallest non-prime deficient number is classified correctly[0m[0m
+[0m[[0minfo[0m] [0m[32m- Medium deficient number is classified correctly[0m[0m
+[0m[[0minfo[0m] [0m[32m- Large deficient number is classified correctly[0m[0m
+[0m[[0minfo[0m] [0m[32m- Edge case (no factors other than itself) is classified correctly[0m[0m
+[0m[[0minfo[0m] [0m[32m- Zero is rejected (not a natural number)[0m[0m
+[0m[[0minfo[0m] [0m[32m- Negative integer is rejected (not a natural number)[0m[0m

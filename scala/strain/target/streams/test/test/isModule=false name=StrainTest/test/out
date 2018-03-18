@@ -1,0 +1,12 @@
+[0m[[0minfo[0m] [0m[32mStrainTest:[0m[0m
+[0m[[0minfo[0m] [0m[32m- should handle empty keep[0m[0m
+[0m[[0minfo[0m] [0m[32m- should keep everything[0m[0m
+[0m[[0minfo[0m] [0m[32m- should keep first and last[0m[0m
+[0m[[0minfo[0m] [0m[32m- should keep neither first or last[0m[0m
+[0m[[0minfo[0m] [0m[32m- should keep strings[0m[0m
+[0m[[0minfo[0m] [0m[32m- should keep sequences[0m[0m
+[0m[[0minfo[0m] [0m[32m- should handle empty discard[0m[0m
+[0m[[0minfo[0m] [0m[32m- should discard first and last[0m[0m
+[0m[[0minfo[0m] [0m[32m- should discard neither first or last[0m[0m
+[0m[[0minfo[0m] [0m[32m- should discard strings[0m[0m
+[0m[[0minfo[0m] [0m[32m- should discard sequences[0m[0m
