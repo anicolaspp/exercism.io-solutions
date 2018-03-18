@@ -2,7 +2,7 @@ object Sieve {
   
   def primes(n: Int) = from(2, n, (2 to n).toList)
 
-  def from(k: Int, to: Int, result: List[Int]): List[Int] =
+  private def from(k: Int, to: Int, result: List[Int]): List[Int] =
     if (k > to) {
       result
     } else {
